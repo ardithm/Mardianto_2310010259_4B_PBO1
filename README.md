@@ -106,7 +106,7 @@ public void setStok(int stok) {
 }
 ```
 
-6. **Accessor** atau getter digunakan untuk mengambil nilai dari suatu atribut. Pada kode ini, `gerNama`, `getharga`, dan `getStok` adalah contoh method accessor.
+6. **Accessor** atau getter digunakan untuk mengambil nilai dari suatu atribut. Pada kode ini, `getNama`, `getharga`, dan `getStok` adalah contoh method accessor.
 
 ```bash
 public String getNama() {
@@ -239,7 +239,7 @@ Produk[] daftarProduk = new Produk[4];
 
 14. **Error Handling** digunakan untuk menangani error yang mungkin terjadi saat runtime. Pada kode ini, digunakan `try catch` untuk menangani input yang tidak valid.
 
-```java
+```bash
 try {
     System.out.print("Pilih produk (1-" + daftarProduk.length + "): ");
     int pilih = input.nextInt();
